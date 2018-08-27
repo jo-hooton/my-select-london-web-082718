@@ -9,7 +9,7 @@ def my_select(array)
       result = yield(array[i])
       i = i + 1
       if result = true
-        new_array.push(result)
+        return new_array.push(result)
       end
     end
     new_array
