@@ -6,7 +6,7 @@ def my_select(array)
     new_array = []
 
     while i < array.length
-      result = yield(array[i?)
+      result = yield(array[i])
       i = i + 1
       if result = true
       new_array.push(result)
