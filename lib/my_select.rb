@@ -10,7 +10,6 @@ def my_select(array)
       i = i + 1
       if result == true
         new_array.push(result)
-      else
       end
     end
     new_array
