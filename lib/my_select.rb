@@ -8,8 +8,7 @@ def my_select(array)
     while i < array.length
       result = yield(array[i])
       i = i + 1
-      if result = true
-        return new_array.push(result)
+      if result = true [new_array.push(result)]
       end
     end
     new_array
